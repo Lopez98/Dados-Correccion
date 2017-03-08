@@ -18,7 +18,7 @@ public class Dado {
     void lanzar(){
         
         Random generador=new Random();
-        this.valor=generador.nextInt(5)+1;
+        this.valor=generador.nextInt(6)+1;
     }
 
     public int getValor() {
